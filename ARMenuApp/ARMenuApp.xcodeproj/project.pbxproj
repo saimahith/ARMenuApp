@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA823002C46FC930043F464 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA822FF2C46FC930043F464 /* FirebaseAuth */; };
+		3CA823022C46FC930043F464 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA823012C46FC930043F464 /* FirebaseFirestore */; };
+		3CA823042C46FC930043F464 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA823032C46FC930043F464 /* FirebaseMLModelDownloader */; };
+		3CA823062C46FC930043F464 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA823052C46FC930043F464 /* FirebaseStorage */; };
+		3CA823082C46FC930043F464 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3CA823072C46FC930043F464 /* FirebaseStorageCombine-Community */; };
+		3CA8230A2C46FD7E0043F464 /* FirebaseCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA823092C46FD7E0043F464 /* FirebaseCheckView.swift */; };
+		3CA8230C2C46FF800043F464 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8230B2C46FF800043F464 /* MenuItem.swift */; };
+		3CA823102C4701BA0043F464 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8230F2C4701BA0043F464 /* MenuViewModel.swift */; };
+		3CD755C12C45AE6D00A6F44F /* ARMenuAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD755C02C45AE6D00A6F44F /* ARMenuAppApp.swift */; };
+		3CD755C32C45AE6D00A6F44F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD755C22C45AE6D00A6F44F /* ContentView.swift */; };
+		3CD755C52C45AE7700A6F44F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD755C42C45AE7700A6F44F /* Assets.xcassets */; };
+		3CD755C82C45AE7700A6F44F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD755C72C45AE7700A6F44F /* Preview Assets.xcassets */; };
+		3CD755EB2C45AECD00A6F44F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CD755EA2C45AECD00A6F44F /* GoogleService-Info.plist */; };
+		3CF4E2ED2C48353B0081C0CF /* MenuItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4E2EC2C48353B0081C0CF /* MenuItemDetailView.swift */; };
+		3CF4E2F32C484C680081C0CF /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4E2F22C484C680081C0CF /* ARViewContainer.swift */; };
+		3CF4E2F52C484D170081C0CF /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4E2F42C484D170081C0CF /* SheetView.swift */; };
+		B14822322C54594F0098761A /* Double_cheeseburger.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B14822312C54594F0098761A /* Double_cheeseburger.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CA823092C46FD7E0043F464 /* FirebaseCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCheckView.swift; sourceTree = "<group>"; };
+		3CA8230B2C46FF800043F464 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		3CA8230F2C4701BA0043F464 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		3CD755BD2C45AE6D00A6F44F /* ARMenuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMenuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD755C02C45AE6D00A6F44F /* ARMenuAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMenuAppApp.swift; sourceTree = "<group>"; };
+		3CD755C22C45AE6D00A6F44F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CD755C42C45AE7700A6F44F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CD755C72C45AE7700A6F44F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CD755D12C45AE7800A6F44F /* ARMenuAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMenuAppTests.swift; sourceTree = "<group>"; };
+		3CD755DB2C45AE7800A6F44F /* ARMenuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMenuAppUITests.swift; sourceTree = "<group>"; };
+		3CD755DD2C45AE7800A6F44F /* ARMenuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMenuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CD755EA2C45AECD00A6F44F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CF4E2EC2C48353B0081C0CF /* MenuItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailView.swift; sourceTree = "<group>"; };
+		3CF4E2F22C484C680081C0CF /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		3CF4E2F42C484D170081C0CF /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		B141BEC82C4D7FC80060EC71 /* ARMenuApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ARMenuApp.entitlements; sourceTree = "<group>"; };
+		B14822312C54594F0098761A /* Double_cheeseburger.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Double_cheeseburger.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CD755BA2C45AE6D00A6F44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA823042C46FC930043F464 /* FirebaseMLModelDownloader in Frameworks */,
+				3CA823062C46FC930043F464 /* FirebaseStorage in Frameworks */,
+				3CA823082C46FC930043F464 /* FirebaseStorageCombine-Community in Frameworks */,
+				3CA823002C46FC930043F464 /* FirebaseAuth in Frameworks */,
+				3CA823022C46FC930043F464 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CD755B42C45AE6D00A6F44F = {
+			isa = PBXGroup;
+			children = (
+				3CD755BF2C45AE6D00A6F44F /* ARMenuApp */,
+				3CD755D02C45AE7800A6F44F /* ARMenuAppTests */,
+				3CD755DA2C45AE7800A6F44F /* ARMenuAppUITests */,
+				3CD755BE2C45AE6D00A6F44F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CD755BE2C45AE6D00A6F44F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CD755BD2C45AE6D00A6F44F /* ARMenuApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CD755BF2C45AE6D00A6F44F /* ARMenuApp */ = {
+			isa = PBXGroup;
+			children = (
+				B141BEC82C4D7FC80060EC71 /* ARMenuApp.entitlements */,
+				3CD755C02C45AE6D00A6F44F /* ARMenuAppApp.swift */,
+				3CD755C22C45AE6D00A6F44F /* ContentView.swift */,
+				3CD755C42C45AE7700A6F44F /* Assets.xcassets */,
+				B14822312C54594F0098761A /* Double_cheeseburger.usdz */,
+				3CD755EA2C45AECD00A6F44F /* GoogleService-Info.plist */,
+				3CA823092C46FD7E0043F464 /* FirebaseCheckView.swift */,
+				3CA8230B2C46FF800043F464 /* MenuItem.swift */,
+				3CA8230F2C4701BA0043F464 /* MenuViewModel.swift */,
+				3CF4E2EC2C48353B0081C0CF /* MenuItemDetailView.swift */,
+				3CD755C72C45AE7700A6F44F /* Preview Assets.xcassets */,
+				3CD755C62C45AE7700A6F44F /* Preview Content */,
+				3CF4E2F22C484C680081C0CF /* ARViewContainer.swift */,
+				3CF4E2F42C484D170081C0CF /* SheetView.swift */,
+			);
+			path = ARMenuApp;
+			sourceTree = "<group>";
+		};
+		3CD755C62C45AE7700A6F44F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CD755D02C45AE7800A6F44F /* ARMenuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CD755D12C45AE7800A6F44F /* ARMenuAppTests.swift */,
+			);
+			path = ARMenuAppTests;
+			sourceTree = "<group>";
+		};
+		3CD755DA2C45AE7800A6F44F /* ARMenuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CD755DB2C45AE7800A6F44F /* ARMenuAppUITests.swift */,
+				3CD755DD2C45AE7800A6F44F /* ARMenuAppUITestsLaunchTests.swift */,
+			);
+			path = ARMenuAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CD755BC2C45AE6D00A6F44F /* ARMenuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD755E12C45AE7800A6F44F /* Build configuration list for PBXNativeTarget "ARMenuApp" */;
+			buildPhases = (
+				3CD755B92C45AE6D00A6F44F /* Sources */,
+				3CD755BA2C45AE6D00A6F44F /* Frameworks */,
+				3CD755BB2C45AE6D00A6F44F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARMenuApp;
+			packageProductDependencies = (
+				3CA822FF2C46FC930043F464 /* FirebaseAuth */,
+				3CA823012C46FC930043F464 /* FirebaseFirestore */,
+				3CA823032C46FC930043F464 /* FirebaseMLModelDownloader */,
+				3CA823052C46FC930043F464 /* FirebaseStorage */,
+				3CA823072C46FC930043F464 /* FirebaseStorageCombine-Community */,
+			);
+			productName = ARMenuApp;
+			productReference = 3CD755BD2C45AE6D00A6F44F /* ARMenuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CD755B52C45AE6D00A6F44F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					3CD755BC2C45AE6D00A6F44F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CD755B82C45AE6D00A6F44F /* Build configuration list for PBXProject "ARMenuApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CD755B42C45AE6D00A6F44F;
+			packageReferences = (
+				3CD755EC2C45AFD200A6F44F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3CD755BE2C45AE6D00A6F44F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CD755BC2C45AE6D00A6F44F /* ARMenuApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CD755BB2C45AE6D00A6F44F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD755C82C45AE7700A6F44F /* Preview Assets.xcassets in Resources */,
+				3CD755C52C45AE7700A6F44F /* Assets.xcassets in Resources */,
+				B14822322C54594F0098761A /* Double_cheeseburger.usdz in Resources */,
+				3CD755EB2C45AECD00A6F44F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CD755B92C45AE6D00A6F44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA8230A2C46FD7E0043F464 /* FirebaseCheckView.swift in Sources */,
+				3CF4E2F32C484C680081C0CF /* ARViewContainer.swift in Sources */,
+				3CA8230C2C46FF800043F464 /* MenuItem.swift in Sources */,
+				3CD755C32C45AE6D00A6F44F /* ContentView.swift in Sources */,
+				3CA823102C4701BA0043F464 /* MenuViewModel.swift in Sources */,
+				3CD755C12C45AE6D00A6F44F /* ARMenuAppApp.swift in Sources */,
+				3CF4E2F52C484D170081C0CF /* SheetView.swift in Sources */,
+				3CF4E2ED2C48353B0081C0CF /* MenuItemDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CD755DF2C45AE7800A6F44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CD755E02C45AE7800A6F44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CD755E22C45AE7800A6F44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ARMenuApp/ARMenuApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARMenuApp/Preview Content\"";
+				DEVELOPMENT_TEAM = BTYPTQ6G6K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Need camera access to display AR content.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.ARMenuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CD755E32C45AE7800A6F44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ARMenuApp/ARMenuApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARMenuApp/Preview Content\"";
+				DEVELOPMENT_TEAM = BTYPTQ6G6K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Need camera access to display AR content.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krish.ARMenuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CD755B82C45AE6D00A6F44F /* Build configuration list for PBXProject "ARMenuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD755DF2C45AE7800A6F44F /* Debug */,
+				3CD755E02C45AE7800A6F44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD755E12C45AE7800A6F44F /* Build configuration list for PBXNativeTarget "ARMenuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD755E22C45AE7800A6F44F /* Debug */,
+				3CD755E32C45AE7800A6F44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CD755EC2C45AFD200A6F44F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3CA822FF2C46FC930043F464 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CD755EC2C45AFD200A6F44F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3CA823012C46FC930043F464 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CD755EC2C45AFD200A6F44F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3CA823032C46FC930043F464 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CD755EC2C45AFD200A6F44F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		3CA823052C46FC930043F464 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CD755EC2C45AFD200A6F44F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		3CA823072C46FC930043F464 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CD755EC2C45AFD200A6F44F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3CD755B52C45AE6D00A6F44F /* Project object */;
+}

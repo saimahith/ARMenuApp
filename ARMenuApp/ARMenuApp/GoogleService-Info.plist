@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCp8Gl7dYAiJYZDGcjj6aMnkSuOX_hc8y0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>375562038754</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.krish.ARMenuApp</string>
+	<key>PROJECT_ID</key>
+	<string>armenuapp-81db3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>armenuapp-81db3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:375562038754:ios:a6ed49f7ba2b09a791ddbb</string>
+</dict>
+</plist>
